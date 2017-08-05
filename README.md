@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Graph_Parallel](https://github.com/Boostorg/Graph_Parallel) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Graph_Parallel%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Graph_Parallel%3Abincrafters).
 
 ## For Users: Use this package
 
