@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostGraph_ParallelConan(ConanFile):
     name = "boost_graph_parallel"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-graph_parallel"
+    url = "https://github.com/bincrafters/conan-boost_graph_parallel"
 
     lib_short_names = ["graph_parallel"]
     is_in_cycle_group = True
