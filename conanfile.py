@@ -8,7 +8,8 @@ class BoostGraph_ParallelConan(ConanFile):
     name = "boost_graph_parallel"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_graph_parallel"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["graph_parallel"]
     is_in_cycle_group = True
     is_header_only = False
