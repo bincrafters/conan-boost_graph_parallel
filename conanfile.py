@@ -11,7 +11,7 @@ class BoostGraph_ParallelConan(ConanFile):
     author = "Bincrafters <bincrafters@gmail.com>"
     exports = ["LICENSE.md"]
     lib_short_names = ["graph_parallel"]
-    is_in_cycle_group = True
+    level_group = "boost_level14group"
     is_header_only = False
 
     requires = (
