@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostGraph_ParallelConan(base.BoostBaseConan):
     name = "boost_graph_parallel"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_graph_parallel"
     lib_short_names = ["graph_parallel"]
     cycle_group = "boost_cycle_group_d"
