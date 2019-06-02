@@ -4,12 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostGraph_ParallelConan(base.BoostBaseConan):
     name = "boost_graph_parallel"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_graph_parallel"
-    lib_short_names = ["graph_parallel"]
-    cycle_group = "boost_cycle_group_d"
-    b2_requires = ["boost_cycle_group_d"]
+    version = "1.70.0"
